@@ -1,76 +1,125 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="STYLESHEET" href="styles.css">
-    <title>Suplementos dietarios</title>
-    <link rel="icon" type="image/png" href="imagenes/flavicon.png"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="STYLESHEET" href="css/estilos.css">
+  <link rel="STYLESHEET" href="css/fluid.css">
+  <title>Suplementos dietarios</title>
+  <link rel="icon" type="image/png" href="imagenes/flavicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <header class="header">
-      <div class="menu container">
-            <a href="#default" class="logo">Suplementos herbales</a>
-            <nav class="navbar">
-              <ul>
-                <li><a class="active" href="#Inicio">Inicio</a></li>
-                <li> <a href="#Sobre nosotros">Sobre nosotros</a></li>
-                <li> <a href="#productos">Productos</a></li>
-                <li> <a href="#contacto">Contacto</a></li>
-              </ul>  
-            <nav>
-      </div>
+  <div class="container">
+    <div class="box-slide-menu item header">
+
+      <nav>
+        <div class="menu">
+
+          <span><a class="active" href="#Inicio">Inicio</a></span>
+          <span><a href="#contact">Contacto</a></span>
+          <span><a href="#about">Sobre nosotros</a></span>
+
+        </div>
+
+
+        <div class="slideshow">
+          <h1>Suplementos herbales</h1>
+          <p style="font-size: 0.8em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aperiam.</p>
           
-      <section class="Inicio container"> 
-        <div class="Inicio-img">
-          <img src="imagenes/Img_index.jfif" alt="píldoras" style="width:100%;">
+
         </div>
+      </nav>
 
-        <div class="Inicio-txt">
-          <span class="oferta">oferta</span>
-          <h2>Vitamina c de origen natural</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est illo repudiandae, nemo repellendus a, quos officia suscipit deserunt libero blanditiis excepturi accusantium. Eos laudantium non amet omnis? Eos, temporibus beatae?
+    </div>
 
+    <div class="item izq">
+      <aside>
+        <div>
+
+          <p>
+          <h4>Resumen publicacion 1.</h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aperiam.
           </p>
-           
         </div>
+        <div>
+          <p>
+          <h4>Resumen publicacion 2.</h4> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aperiam.
+          </p>
+        </div>
+      </aside>
+    </div>
 
-      </section>
-      
+    <div class="item contenido">
+
       <main class="Productos cointeiner">
-        <spam class="productos"> Productos </spam>
-        <h2>Productos</h2>
-        <p>
-          Los mejores del mercado
-        </p>
+        <div>
+          <spam class="productos"> Productos </spam>
+          <h2>Productos</h2>
+          <p>
+            Los mejores del mercado
+          </p>
+        </div>
 
         <div class="producto-contenido">
-          <img src="imagenes/Img_1.jfif" alt="vitamina c">
+          <div class="img-box">
+            <img class="img-producto" src="imagenes/Img_1.jfif" alt="vitamina c">
+          </div>
           <h3>Vitamina c </h3>
           <span>500 </span>
+
         </div>
-        
+
         <div class="producto-contenido">
-          <img src="imagenes/Img_2.jfif" alt="vitamina c">
+          <div class="img-box">
+            <img class="img-producto" src="imagenes/Img_2.jfif" alt="vitamina c">
+          </div>
           <h3>Vitamina a </h3>
           <span>500 </span>
-          
+        </div>
+
         <div class="producto-contenido">
-          <img src="imagenes/Img_3.jpg" alt="vitamina c">
+          <div class="img-box">
+            <img class="img-producto" src="imagenes/Img_3.jpg" alt="vitamina c">
+          </div>
           <h3>Vitamina b1 </h3>
           <span>500 </span>
         </div>
 
         <div class="producto-contenido">
-         <img src="imagenes/Img_4.jfif" alt="vitamina c">
-         <h3>Vitamina e </h3>
-         <span>500 </span>
+          <div class="img-box">
+            <img class="img-producto" src="imagenes/Img_4.jfif" alt="vitamina c">
+          </div>
+          <h3>Vitamina e </h3>
+          <span>500 </span>
         </div>
 
-        </div>
+
       </main>
-    
-    </header>  
+    </div>
+
+    <div class="item der">
+      <aside>
+        <p><b>Panel a la derecha</b></p>
+        <p>Alan Turing definió además un método teórico para decidir si una máquina era capaz de pensar como un
+          hombre (test de Turing) y realizó contribuciones a otras ramas de la matemática aplicada, como la
+          aplicación de métodos analíticos y mecánicos al problema biológico de la morfogénesis.</p>
+      </aside>
+    </div>
+
+    <footer class="item pie">
+      <div>
+        <p>Seguinos en nuestras redes</p>
+        <p>iconos de redes </p>
+      </div>
+    </footer>
+
+  </div>
 </body>
+
 </html>

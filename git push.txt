@@ -1,0 +1,8 @@
+
+
+git init
+git status
+git add .
+git commit -m "01 ejemplo"
+git remote add origin https://github.com/fatucha/codoacodo.git
+git push origin master
